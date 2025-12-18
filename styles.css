@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.select-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.card {
+  display: none;
+  max-width: 420px;
+  margin: 20px auto;
+  background: rgba(255,255,255,0.15);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.card img {
+  width: 120px;
+  margin-bottom: 10px;
+}
